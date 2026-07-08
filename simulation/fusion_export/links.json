@@ -1,0 +1,48 @@
+{
+ "body": [
+  "S1.body",
+  "S2.body",
+  "S3.body",
+  "S4.body",
+  "SPDT Mini Slide Switch:1",
+  "Seeed Studio XIAO-ESP32-C3:1",
+  "Waveshare 1315 0.49in i2c 64x32 oled display v1:1",
+  "proto-board:1"
+ ],
+ "upper_rf": [
+  "S1.arm",
+  "S7.arm",
+  "hip_rf:1"
+ ],
+ "upper_rr": [
+  "S2.arm",
+  "S6.arm",
+  "hip_rr:1"
+ ],
+ "upper_lf": [
+  "S3.arm",
+  "S5.arm",
+  "hip_lf:1"
+ ],
+ "upper_lr": [
+  "S4.arm",
+  "S8.arm",
+  "hip_lr:1"
+ ],
+ "lower_lf": [
+  "F-L3:1",
+  "S5.body"
+ ],
+ "lower_rr": [
+  "F-R4:1",
+  "S6.body"
+ ],
+ "lower_rf": [
+  "F-R3:1",
+  "S7.body"
+ ],
+ "lower_lr": [
+  "F-L4:1",
+  "S8.body"
+ ]
+}
