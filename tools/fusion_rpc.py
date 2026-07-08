@@ -49,7 +49,13 @@ def call_fusion(script, timeout=180):
                                  {"Content-Type": "application/json"})
     with urllib.request.urlopen(req, timeout=timeout) as r:
         resp = json.load(r)
-    return "\n".join(c.get("text", "") for c in resp["result"]["content"])
+    if "error" in resp:
+        # 插件侧 ~30s 看门狗:超时返回 error 但脚本可能仍在执行,勿盲目重发重操作
+        raise RuntimeError("fusion-mcp error: %s" % resp["error"].get("message"))
+    res = resp["result"]
+    if "content" not in res:
+        raise RuntimeError("fusion-mcp unexpected result: %s" % json.dumps(res)[:600])
+    return "\n".join(c.get("text", "") for c in res["content"])
 
 
 def main():

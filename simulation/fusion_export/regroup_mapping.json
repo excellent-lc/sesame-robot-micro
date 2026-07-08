@@ -1,0 +1,22 @@
+{
+ "DM-S0020 2.1G Ultra-Micro Servo:3": "DM-S0020 2.1G Ultra-Micro Servo:9",
+ "DM-S0020 2.1G Ultra-Micro Servo:4": "DM-S0020 2.1G Ultra-Micro Servo:10",
+ "DM-S0020 2.1G Ultra-Micro Servo:1": "DM-S0020 2.1G Ultra-Micro Servo:11",
+ "DM-S0020 2.1G Ultra-Micro Servo:2": "DM-S0020 2.1G Ultra-Micro Servo:12",
+ "SPDT Mini Slide Switch:1": "SPDT Mini Slide Switch:2",
+ "proto-board:1": "proto-board:2",
+ "DM-S0020 2.1G Ultra-Micro Servo:5": "DM-S0020 2.1G Ultra-Micro Servo:13",
+ "DM-S0020 2.1G Ultra-Micro Servo:7": "DM-S0020 2.1G Ultra-Micro Servo:14",
+ "DM-S0020 2.1G Ultra-Micro Servo:8": "DM-S0020 2.1G Ultra-Micro Servo:15",
+ "DM-S0020 2.1G Ultra-Micro Servo:6": "DM-S0020 2.1G Ultra-Micro Servo:16",
+ "Waveshare 1315 0.49in i2c 64x32 oled display v1:1": "Waveshare 1315 0.49in i2c 64x32 oled display v1:2",
+ "Seeed Studio XIAO-ESP32-S3:1": "Seeed Studio XIAO-ESP32-S3:2",
+ "hip_lf:1": "hip_lf:2",
+ "F-L3:1": "F-L3:2",
+ "hip_rf:1": "hip_rf:2",
+ "F-R3:1": "F-R3:2",
+ "hip_lr:1": "hip_lr:2",
+ "F-L4:1": "F-L4:2",
+ "hip_rr:1": "hip_rr:2",
+ "F-R4:1": "F-R4:2"
+}
