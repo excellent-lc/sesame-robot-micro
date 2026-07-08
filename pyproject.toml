@@ -1,0 +1,14 @@
+[project]
+name = "sesame-robot-micro"
+version = "0.1.0"
+description = "Sesame 风格四足小机器人:固件 + 硬件 CAD + Fusion/FreeCAD 自动化工具链"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.12"
+dependencies = [
+    "pybullet>=3.2.7",
+    "pillow>=12.0",
+]
+
+# tools/ 下脚本只用标准库,可直接 python3 跑;依赖仅 simulation 仿真用
+# 环境管理: uv sync 建 .venv;uv run python xxx.py 免激活

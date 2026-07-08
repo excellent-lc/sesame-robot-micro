@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Claude Code / MCP 本地状态
+.claude/settings.local.json
+.playwright-mcp/
+
+# FreeCAD 自动备份
+*.FCBak
+*.FCStd1
+
+# Fusion→FreeCAD 流水线可再生的大中间件(STEP);同目录 JSON 保留跟踪
+simulation/fusion_export/*.step
